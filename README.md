@@ -4,7 +4,7 @@
 
 ```ts
 // server
-import { createPaidMcpHandler } from "ky";
+import { createPaidMcpHandler } from "x402-mcp";
 import z from "zod";
 
 const handler = createPaidMcpHandler(
